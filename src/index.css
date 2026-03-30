@@ -16,8 +16,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&family=Outfit:wght@100..900&family=JetBrains+Mono:wght@100..800&display=swap');
 
-html, body, * {
-  cursor: none !important;
+@media (pointer: fine) and (hover: hover) {
+  html, body, * {
+    cursor: none !important;
+  }
 }
 
 body {
