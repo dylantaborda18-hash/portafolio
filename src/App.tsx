@@ -340,13 +340,13 @@ export default function App() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div className="space-y-16">
             <BeforeAfter 
-              before="public/images/antes1.jpg" 
-              after="public/images/despues1.jpg"
+              before="images/antes1.jpg" 
+              after="images/despues1.jpg"
               label="Corrección de color y eliminación de ruido"
             />
             <BeforeAfter 
-              before="public/images/antes2.jpg" 
-              after="public/images/despues2.jpg"
+              before="images/antes2.jpg" 
+              after="images/despues2.jpg"
               label="Retoque de piel y eliminación de objetos"
             />
           </div>
