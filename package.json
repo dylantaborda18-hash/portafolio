@@ -1,6 +1,10 @@
 {
   "name": "react-example",
+<<<<<<< HEAD
   "homepage": "https://dylantabito.com/",
+=======
+  "homepage": "homepage": "[https://dylantabito.com/](https://dylantabito.com/)",
+>>>>>>> 9c5b12224e1cd187c3ca30302b7d7de42383daaf
   "private": true,
   "version": "0.0.0",
   "type": "module",
