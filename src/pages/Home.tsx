@@ -350,7 +350,7 @@ export const Home = () => {
 
             <div className="space-y-12">
               <div className="space-y-4">
-                <h2 className="text-7xl md:text-8xl display italic leading-none">Soy Tabito.</h2>
+                <h2 className="text-7xl md:text-8xl display italic leading-none">Soy Dylan.</h2>
                 <div className="sticker text-sm -rotate-2">SOBRE MÍ</div>
               </div>
               
