@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Home } from './pages/Home';
 import { Gallery } from './pages/Gallery';
@@ -66,7 +66,7 @@ export default function App() {
   }, [useCustomCursor]);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="min-h-screen relative overflow-x-hidden">
         <div className="grain" />
         {useCustomCursor && (
@@ -91,6 +91,6 @@ export default function App() {
           <Route path="/galeria" element={<Gallery />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
